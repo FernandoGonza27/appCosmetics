@@ -1,0 +1,17 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    max-width: 40%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .product {
+      padding: 10px;
+    }
+  
+    
+  }

@@ -1,0 +1,27 @@
+
+/* Estilos para el componente Footer */
+footer {
+    background-color: #1f1e1e;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {      
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-section {
+      flex-basis: 100%;
+      margin-bottom: 10px;
+    }
+}
